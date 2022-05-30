@@ -1,0 +1,19 @@
+Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+[16,21,11,8,12,22]
+Bu dizi yarılanır ve iki alt dizi oluşturulur.	[16,21,11] - [8,12,22]
+
+Alt kümelerin eleman sayısı 3 olduğu için 2 ve 1 olarak ayrılırlar.	[16] - [21,11]-----[8] - [12,22]
+
+Tekrar bölünme işlemi yapılır ve her elemanın tek kalması sağlanır.	[16] --- [21] -- [11] ---- [8] --- [12] -- [22]
+
+[16] --- [11,21] ---- [8] --- [12,22]
+[11,16,21] ---- [8,12,22]
+  
+[8,11,12,16,21,22]
+
+Big-O gösterimini yazınız.
+nlogn
+
